@@ -1,0 +1,65 @@
+digraph juego { 
+node [shape=plaintext] 
+node1[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>root</TD> 
+</TR> 
+</TABLE>>]
+node3[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>home</TD>
+</TR> 
+</TABLE>>]
+node4[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>dos</TD>
+</TR> 
+</TABLE>>]
+node6[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>f</TD>
+</TR> 
+</TABLE>>]
+node7[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>s</TD>
+</TR> 
+</TABLE>>]
+node8[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>fsdfsd</TD>
+</TR> 
+</TABLE>>]
+node9[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>ffaffa</TD>
+</TR> 
+</TABLE>>]
+node10[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>prieba</TD>
+</TR> 
+</TABLE>>]
+node11[shape=none, margin=0, label=<
+<TABLE> 
+<TR> 
+<TD>cvx</TD>
+</TR> 
+</TABLE>>]
+node1->node6;
+node1->node4;
+node1->node7;
+node1->node8;
+node4->node3;
+node7->node9;
+node9->node10;
+node10->node11;
+}

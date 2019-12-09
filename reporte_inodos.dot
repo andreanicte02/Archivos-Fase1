@@ -1,0 +1,62 @@
+digraph reporte_inodos { 
+node [shape=plaintext] 
+rankdir=LR 
+nodei1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>INODO 1</TD></TR>
+<TR><TD>/</TD></TR>
+<TR><TD>TIPO</TD><TD>0</TD></TR>
+<TR><TD>ID</TD><TD>1</TD></TR>
+<TR><TD>Puntero</TD><TD>440376</TD></TR>
+<TR><TD>Permisos</TD><TD>-1</TD></TR>
+<TR><TD>Propietario</TD><TD>vacio</TD></TR>
+<TR><TD>Fecha</TD><TD>vacio</TD></TR>
+<TR><TD>Tamano</TD><TD>0</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">1 (1508376)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">-1 (-1)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>AP1</TD><TD>-1 (-1)</TD></TR>
+<TR><TD>AP2</TD><TD>-1 (-1)</TD></TR>
+</TABLE>>]
+nodei2[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>INODO 2</TD></TR>
+<TR><TD>users.txt</TD></TR>
+<TR><TD>TIPO</TD><TD>1</TD></TR>
+<TR><TD>ID</TD><TD>2</TD></TR>
+<TR><TD>Puntero</TD><TD>440720</TD></TR>
+<TR><TD>Permisos</TD><TD>777</TD></TR>
+<TR><TD>Propietario</TD><TD>root</TD></TR>
+<TR><TD>Fecha</TD><TD>Wed Sep 13 21:55:43 2017
+</TD></TR>
+<TR><TD>Tamano</TD><TD>36</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">2 (1508460)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">3 (1508544)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>AP1</TD><TD>-1 (-1)</TD></TR>
+<TR><TD>AP2</TD><TD>-1 (-1)</TD></TR>
+</TABLE>>]
+nodei1->nodei2;
+nodei3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>INODO 3</TD></TR>
+<TR><TD>putostodos</TD></TR>
+<TR><TD>TIPO</TD><TD>0</TD></TR>
+<TR><TD>ID</TD><TD>3</TD></TR>
+<TR><TD>Puntero</TD><TD>441064</TD></TR>
+<TR><TD>Permisos</TD><TD>664</TD></TR>
+<TR><TD>Propietario</TD><TD>vacio</TD></TR>
+<TR><TD>Fecha</TD><TD>Wed Sep 13 22:02:06 2017
+</TD></TR>
+<TR><TD>Tamano</TD><TD>0</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">4 (1508628)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">-1 (-1)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>AP1</TD><TD>-1 (-1)</TD></TR>
+<TR><TD>AP2</TD><TD>-1 (-1)</TD></TR>
+</TABLE>>]
+nodei2->nodei3;
+}

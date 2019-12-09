@@ -1,0 +1,4 @@
+0000000000,root                                              ,201404104                                         ,root                                              
+0000000001,pruea                                             ,asdfas                                            ,root                                              
+0000000002,asfd                                              ,fsd                                               ,root                                              
+0000000003,asdfe                                             ,dsfasd                                            ,cliente                                           

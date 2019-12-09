@@ -1,0 +1,26 @@
+Disco: pollo
+Nombre Particion: d
+Reporte Journaling
+Fecha de reporte:Wed Sep 13 22:08:17 2017
+
+-------------------------------------------
+Fecha: Wed Sep 13 22:02:06 2017
+
+Descripcion: Se creo la carpeta: home
+-------------------------------------------
+Fecha: Wed Sep 13 22:02:29 2017
+
+Descripcion: Se creo el archivo: hola.txt
+-------------------------------------------
+Fecha: Wed Sep 13 22:05:44 2017
+
+Descripcion: Se movieron carpetas de un directorio a otro
+-------------------------------------------
+Fecha: Wed Sep 13 22:06:04 2017
+
+Descripcion: Se renombro la carpeta/directorio: home
+-------------------------------------------
+Fecha: Wed Sep 13 22:06:56 2017
+
+Descripcion: Se elimino la carpeta: hola.txt
+-------------------------------------------

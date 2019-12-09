@@ -1,0 +1,92 @@
+digraph juego3 { 
+node [shape=plaintext] 
+rankdir=LR 
+nodei1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>/</TD></TR>
+<TR><TD>TIPO</TD><TD>0</TD></TR>
+<TR><TD>ID</TD><TD>1</TD></TR>
+<TR><TD>Puntero</TD><TD>440376</TD></TR>
+<TR><TD>Permisos</TD><TD>-1</TD></TR>
+<TR><TD>Propietario</TD><TD>vacio</TD></TR>
+<TR><TD>Fecha</TD><TD>vacio</TD></TR>
+<TR><TD>Tamano</TD><TD>0</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">1 (1508376)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">-1 (-1)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>AP1</TD><TD>-1 (-1)</TD></TR>
+<TR><TD>AP2</TD><TD>-1 (-1)</TD></TR>
+</TABLE>>]
+nodei2[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>users.txt</TD></TR>
+<TR><TD>TIPO</TD><TD>1</TD></TR>
+<TR><TD>ID</TD><TD>2</TD></TR>
+<TR><TD>Puntero</TD><TD>440720</TD></TR>
+<TR><TD>Permisos</TD><TD>777</TD></TR>
+<TR><TD>Propietario</TD><TD>root</TD></TR>
+<TR><TD>Fecha</TD><TD>Mon Oct  2 14:09:31 2017
+</TD></TR>
+<TR><TD>Tamano</TD><TD>36</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">2 (1508460)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">3 (1508544)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>AP1</TD><TD>-1 (-1)</TD></TR>
+<TR><TD>AP2</TD><TD>-1 (-1)</TD></TR>
+</TABLE>>]
+nodei3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>users.txt</TD></TR>
+<TR><TD>TIPO</TD><TD>1</TD></TR>
+<TR><TD>ID</TD><TD>3</TD></TR>
+<TR><TD>Puntero</TD><TD>441064</TD></TR>
+<TR><TD>Permisos</TD><TD>664</TD></TR>
+<TR><TD>Propietario</TD><TD>vacio</TD></TR>
+<TR><TD>Fecha</TD><TD>Mon Oct  2 14:10:00 2017
+</TD></TR>
+<TR><TD>Tamano</TD><TD>9</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">4 (1508628)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">-1 (-1)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>AP1</TD><TD>-1 (-1)</TD></TR>
+<TR><TD>AP2</TD><TD>-1 (-1)</TD></TR>
+</TABLE>>]
+nodec1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Actual</TD><TD>1 (1508376)</TD></TR>
+<TR><TD>Inodo Padre</TD><TD>1 (440376)</TD></TR>
+<TR><TD>P1</TD><TD PORT="uno">2 (440720)</TD></TR>
+<TR><TD>P2</TD><TD PORT="dos">3 (441064)</TD></TR>
+<TR><TD>P3</TD><TD PORT="tres">-1 (-1)</TD></TR>
+<TR><TD>P4</TD><TD PORT="cuatro">-1 (-1)</TD></TR>
+<TR><TD>P5</TD><TD PORT="cinco">-1 (-1)</TD></TR>
+<TR><TD>P6</TD><TD PORT="seis">-1 (-1)</TD></TR>
+</TABLE>>]
+nodea2[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Actual</TD><TD>2 (1508460)</TD></TR>
+<TR><TD>Inodo Padre</TD><TD>2 (440720)</TD></TR>
+<TR><TD>Contenido</TD><TD>1,G,root:1,U,root,root,2</TD></TR>
+</TABLE>>]
+nodea3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Actual</TD><TD>3 (1508544)</TD></TR>
+<TR><TD>Inodo Padre</TD><TD>2 (440720)</TD></TR>
+<TR><TD>Contenido</TD><TD>01404104:</TD></TR>
+</TABLE>>]
+nodea4[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Actual</TD><TD>4 (1508628)</TD></TR>
+<TR><TD>Inodo Padre</TD><TD>3 (441064)</TD></TR>
+<TR><TD>Contenido</TD><TD>1,G,hola:</TD></TR>
+</TABLE>>]
+nodei1:uno->nodec1;
+nodei2:uno->nodea2;
+nodei2:dos->nodea3;
+nodei3:uno->nodea4;
+nodec1:uno->nodei2;
+nodec1:dos->nodei3;
+}

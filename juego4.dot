@@ -1,0 +1,24 @@
+digraph juego4 { 
+node [shape=plaintext] 
+rankdir=LR 
+nodei3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>home</TD></TR>
+</TABLE>>]
+nodep1[shape=none, margin=0, label=<
+<TABLE>
+<TR><TD>Contenido:</TD></TR>
+<TR><TD>TIPO: 1</TD><TD>hola.txt</TD></TR>
+<TR><TD>TIPO: -1</TD><TD>vacio</TD></TR>
+<TR><TD>TIPO: -1</TD><TD>vacio</TD></TR>
+<TR><TD>TIPO: -1</TD><TD>vacio</TD></TR>
+<TR><TD>TIPO: -1</TD><TD>vacio</TD></TR>
+<TR><TD>TIPO: -1</TD><TD>vacio</TD></TR>
+</TABLE>>]
+nodei3->nodep1;
+nodei1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>/</TD></TR>
+</TABLE>>]
+nodei1->nodei3;
+}

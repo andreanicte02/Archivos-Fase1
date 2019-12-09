@@ -1,0 +1,48 @@
+digraph juego2 { 
+node [shape=plaintext] 
+rankdir=LR 
+nodei4[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>hola.txt</TD></TR>
+</TABLE>>]
+nodet1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>hola.txt</TD></TR>
+<TR><TD>Punteros</TD></TR>
+<TR><TD>Directo</TD><TD PORT="uno">5</TD></TR>
+<TR><TD>Directo</TD><TD PORT="dos">6</TD></TR>
+<TR><TD>Directo</TD><TD PORT="tres">7</TD></TR>
+<TR><TD>Directo</TD><TD PORT="cuatro">-1</TD></TR>
+<TR><TD>Indirecto n1</TD><TD>-1</TD></TR>
+<TR><TD>Indirecto n2</TD><TD>-1</TD></TR>
+</TABLE>>]
+nodei4->nodet1;
+nodea1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Informacion</TD></TR>
+<TR><TD>Apuntador: 5</TD></TR>
+<TR><TD>4dsasdfasd asdjfkdfsdfhd</TD></TR></TABLE>>]
+nodet1:uno->nodea1; 
+nodea2[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Informacion</TD></TR>
+<TR><TD>Apuntador: 6</TD></TR>
+<TR><TD> shddhdhdh dsdfsaffds df</TD></TR></TABLE>>]
+nodet1:dos->nodea2; 
+nodea3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Informacion</TD></TR>
+<TR><TD>Apuntador: 7</TD></TR>
+<TR><TD>sdf</TD></TR></TABLE>>]
+nodet1:tres->nodea3; 
+nodei3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>home</TD></TR>
+</TABLE>>]
+nodei3->nodei4;
+nodei1[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>/</TD></TR>
+</TABLE>>]
+nodei1->nodei3;
+}

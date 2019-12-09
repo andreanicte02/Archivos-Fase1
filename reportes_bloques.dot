@@ -1,0 +1,16 @@
+digraph reporte_inodos { 
+node [shape=plaintext] 
+rankdir=LR 
+nodea2[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Bloque 2 (1508460)</TD></TR>
+<TR><TD>Archivo: users.txt</TD></TR>
+<TR><TD>1,G,root:1,U,root,root,2</TD></TR>
+</TABLE>>]
+nodea3[shape=none, margin=0, label=< 
+<TABLE> 
+<TR><TD>Bloque 3 (1508544)</TD></TR>
+<TR><TD>Archivo: users.txt</TD></TR>
+<TR><TD>01404104:</TD></TR>
+</TABLE>>]
+}
